@@ -1,0 +1,16 @@
+# .clang-format file
+BasedOnStyle: LLVM  # You can change this to Google, Chromium, Mozilla, etc.
+IndentWidth: 4       # Set indentation width to 4 spaces
+TabWidth: 4          # Width of a tab character
+UseTab: Never        # Use spaces instead of tabs
+
+# Additional formatting options
+BreakBeforeBraces: Allman # Place braces on a new line
+AllowShortFunctionsOnASingleLine: Empty # Only allow empty functions on a single line
+ColumnLimit: 80          # Maximum line length
+SpaceBeforeParens: ControlStatements # Add space before parentheses in control statements (e.g., if, while)
+AlignConsecutiveAssignments: true    # Align equals in consecutive assignments
+AlignTrailingComments: true          # Align trailing comments
+Cpp11BracedListStyle: true           # Format brace-enclosed lists like C++11 initializer lists
+SortIncludes: true                   # Sort include statements
+IncludeBlocks: Regroup               # Group includes into categories
